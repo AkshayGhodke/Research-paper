@@ -138,17 +138,17 @@
       * Grount pixels: the flat ground hypothesis is assigned with mean deviation
       * Verticle obstacles: the flat ground hypothesis is assigned with mean disparity
       * Sky: the flat ground hypothesis is assigned with zero disparity
-   * Stixel Model:
+  * Stixel Model:
     * Stixel parameters that influence the resulting number of Stixels and the computational time are:
       * the horizontal extent (downsampling factor) ws - controls discreatization
       * the vertical downscaling hs - quadratic influence on execution time
       * model complexity term
     * sweeping hs has the strongest influence on depth and semantic accuracy
     * ws and complexity has stronger influence on the number of Stixels
-   * Results:
+  * Results:
     * Stixel model is able to retain 94% of the disparity and 85% of semantic accuracy with base parameterization
     * for smart down-sampling at equal compression rate it is 91.8% and 76.7% respectively
-   * Impact of Input cues:
+  * Impact of Input cues:
     * Model is evaluated considering single input modulity (amongst three) as well as with the combination of all
     * Results shows that adding color or semantic labels helps to improve depth accuracy
     * while adding color or depth improves semantic accuracy

@@ -104,7 +104,11 @@
 
 * Inference
   * Dynamic programming
+  * Algorithmic specifications
+  * Approximation
+  
 * Parameter Learning
+    
 
 * Experiments
   * Datasets
@@ -126,7 +130,7 @@
     * Number of stixels per image: measure of the complexity of the resulting representation
   * Benchmarking platform:
     * runtime is obtained as follows:
-      * FPGA for SGM (Stereo global matching)
+      * FPGA for SGM (Semi-global matching)
       * a GPU (NVIDIA Titan X) for the FCN
       * a CPU (Intel Xeon, 10 cores, 3GHz) for Stixel segmentation
   * Baseline:

@@ -39,5 +39,5 @@
   * Data Formats
     * Boxes
          * |ImageID|Source|LabelName|Confidence|XMin|XMax|YMin|YMax|IsOccluded|IsTruncated|IsGroupOf|IsDepiction|IsInside|
-||||||||||||||
-|000026e7ee790996|freeform|/m/07j7r|1|0.071905|0.145346|0.206591|0.391306|0|1|1|0|0|
+           |-------|------|---------|----------|----|----|----|----|----------|-----------|---------|-----------|--------|
+           |000026e7ee790996|freeform|/m/07j7r|1|0.071905|0.145346|0.206591|0.391306|0|1|1|0|0|

@@ -7,8 +7,8 @@
 
 # Open Images V4
 
-  # Data Organization
-    * Image-level labels
+  * Data Organization
+   * Image-level labels
         * Classification:
 
           |      | Train |	Validation |	Test |	# Classes 	| # Trainable Classes |
@@ -21,7 +21,7 @@
         * Classes are qualified to be trainable if it has 100+ positive human-verified set
         * [7186](https://storage.googleapis.com/openimages/2018_04/classes-trainable.txt) trainable classes
 
-    * Bounding Boxes
+   * Bounding Boxes
         * Classification:
 
           || Train |	Validation |	Test |	# Classes |	

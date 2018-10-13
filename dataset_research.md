@@ -62,11 +62,11 @@
            |ImageID|Source|LabelName|Confidence|
            |-------|------|---------|----------|
            |000026e7ee790996|verification|/m/04hgtk|0|
-         * Source: indicates how the annotation was created:
+         * **Source**: indicates how the annotation was created:
 
            * **verification** are labels verified by in-house annotators at Google.
            * **crowdsource-verification** are labels verified from the Crowdsource app.
            * **machine** are machine-generated labels.
 
-         * Confidence: Labels that are human-verified to be present in an image have confidence = 1 (positive labels). Labels that are human-verified to be absent from an image have confidence = 0 (negative labels). Machine-generated labels have fractional confidences, generally >= 0.5. The higher the confidence, the smaller the chance for the label to be a false positive.
+         * **Confidence**: Labels that are human-verified to be present in an image have confidence = 1 (positive labels). Labels that are human-verified to be absent from an image have confidence = 0 (negative labels). Machine-generated labels have fractional confidences, generally >= 0.5. The higher the confidence, the smaller the chance for the label to be a false positive.
 

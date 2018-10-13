@@ -69,4 +69,16 @@
            * **machine** are machine-generated labels.
 
          * **Confidence**: Labels that are human-verified to be present in an image have confidence = 1 (positive labels). Labels that are human-verified to be absent from an image have confidence = 0 (negative labels). Machine-generated labels have fractional confidences, generally >= 0.5. The higher the confidence, the smaller the chance for the label to be a false positive.
-
+         
+         
+     * Class Names: 
+       * Example, 
+         /m/0pc9,Alphorn
+         /m/0pckp,Robin
+         /m/0pcm_,Larch
+         /m/0pcq81q,Soccer player
+        
+        * Follows standard CSV escaping rules. Eg., /m/03hgsf0,"Lemon, lime and bitters"
+        
+      * Image IDs
+      

@@ -37,7 +37,7 @@
          * In all splits (train, val, test), annotators also marked a set of attributes for each box, e.g. indicating whether that object is occluded
          
   * Data Formats
-    * Boxes:
+    * Boxes (csv):
          * Example,
          
            |ImageID|Source|LabelName|Confidence|XMin|XMax|YMin|YMax|IsOccluded|IsTruncated|IsGroupOf|IsDepiction|IsInside|
@@ -56,7 +56,7 @@
            * **IsGroupOf**: Indicates that the box spans a group of objects (e.g., a bed of flowers or a crowd of people). We asked        annotators to use this tag for cases with more than 5 instances which are heavily occluding each other and are physically touching.
            * **IsDepiction**: Indicates that the object is a depiction (e.g., a cartoon or drawing of the object, not a real physical instance).
            * **IsInside**: Indicates a picture taken from the inside of the object (e.g., a car interior or inside of a building).
-    * Image Labels
+    * Image Labels (csv): 
          * Example,
          
            |ImageID|Source|LabelName|Confidence|

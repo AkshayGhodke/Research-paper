@@ -32,5 +32,12 @@
          * 1.74 M - human-verified  image-level labels
          * Focused on specific lables -> Eg., image labels {car, limousine, screwdriver} annotated as {limousine, screwdriver}
          * On an Avg., 8.4 boxed objects per image
-         * For [human body parts and the clas "Mammal"](https://storage.googleapis.com/openimages/2018_04/class-ids-human-body-parts-and-mammal.txt), bounding box for only [95335](https://storage.googleapis.com/openimages/2018_04/train/train-image-ids-with-human-parts-and-mammal-boxes.txt) images have been drawn (1327596 boxes on 95335     images)
-         * 
+         * For [human body parts and the clas "Mammal"](https://storage.googleapis.com/openimages/2018_04/class-ids-human-body-parts-and-mammal.txt), bounding box for only [95335](https://storage.googleapis.com/openimages/2018_04/train/train-image-ids-with-human-parts-and-mammal-boxes.txt) images have been drawn (1327596 boxes on 95335 images)
+         * [Semantic hierarchy](https://storage.googleapis.com/openimages/2018_04/bbox_labels_600_hierarchy_visualizer/circle.html) for validation and test datasets
+         * In all splits (train, val, test), annotators also marked a set of attributes for each box, e.g. indicating whether that object is occluded
+         
+  * Data Formats
+    * Boxes
+         * |ImageID|Source|LabelName|Confidence|XMin|XMax|YMin|YMax|IsOccluded|IsTruncated|IsGroupOf|IsDepiction|IsInside|
+||||||||||||||
+|000026e7ee790996|freeform|/m/07j7r|1|0.071905|0.145346|0.206591|0.391306|0|1|1|0|0|

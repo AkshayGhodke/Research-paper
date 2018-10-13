@@ -32,4 +32,5 @@
          * 1.74 M - human-verified  image-level labels
          * Focused on specific lables -> Eg., image labels {car, limousine, screwdriver} annotated as {limousine, screwdriver}
          * On an Avg., 8.4 boxed objects per image
-         * For human body parts and the clas "Mammal", bounding box for only 95335 images have been drawn (1327596 boxes on 95335     images)
+         * For [human body parts and the clas "Mammal"](https://storage.googleapis.com/openimages/2018_04/class-ids-human-body-parts-and-mammal.txt), bounding box for only [95335](https://storage.googleapis.com/openimages/2018_04/train/train-image-ids-with-human-parts-and-mammal-boxes.txt) images have been drawn (1327596 boxes on 95335     images)
+         * 

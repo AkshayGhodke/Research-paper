@@ -81,8 +81,22 @@
         * Follows standard CSV escaping rules. Eg., /m/03hgsf0,"Lemon, lime and bitters"
         
       * Image IDs
-      Example,
-                                                                                                                                                                            |ImageID|Subset|OrigURL|OrigLandingURL|License|AuthorProfileURL|Author|Title|OriginalSize|OriginalMD5|Thumbnail300KURL|Rotation|
-|----|----|-----|-----|------|---|-----|------|------|---------|----------|----|
-|000060e3121c7305|train|https://c1.staticflickr.com/5/4129/5215831864_46f356962f_o.jpg | https://www.flickr.com/photos/brokentaco/5215831864 | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/people/brokentaco/ | David | 28 Nov 2010 Our new house | 211079 | 0Sad+xMj2ttXM1U8meEJ0A== | https://c1.staticflickr.com/5/4129/5215831864_ee4e8c6535_z.jpg | 0|
+        * Example,
+                                                                                                                                                                              |ImageID|Subset|OrigURL|OrigLandingURL|License|AuthorProfileURL|Author|Title|OriginalSize|OriginalMD5|Thumbnail300KURL|Rotation|
+                                                                                                                                                                            |----|----|-----|-----|------|---|-----|------|------|---------|----------|----|
+                                                                                                                                                                            |000060e3121c7305 | train | https://c1.staticflickr.com/5/4129/5215831864_46f356962f_o.jpg | https://www.flickr.com/photos/brokentaco/5215831864 | https://creativecommons.org/licenses/by/2.0/ | https://www.flickr.com/people/brokentaco/ | David | 28 Nov 2010 Our new house | 211079 | 0Sad+xMj2ttXM1U8meEJ0A== | https://c1.staticflickr.com/5/4129/5215831864_ee4e8c6535_z.jpg | 0|
+       
+       |ImageID|000060e3121c7305|
+|Subset|train|
+|OrigURL|https://c1.staticflickr.com/5/4129/5215831864_46f356962f_o.jpg|
+|OrigLandingURL|https://www.flickr.com/photos/brokentaco/5215831864|
+|License|https://creativecommons.org/licenses/by/2.0/|
+|AuthorProfileURL|"https://www.flickr.com/people/brokentaco/"|
+|Author|"David"
+|Title|"28 Nov 2010 Our new house."
+|OriginalSize|211079
+|OriginalMD5|0Sad+xMj2ttXM1U8meEJ0A==
+|Thumbnail300KURL|https://c1.staticflickr.com/5/4129/5215831864_ee4e8c6535_z.jpg|
+|Rotation|0|
+                                                                                                                                                                            
       

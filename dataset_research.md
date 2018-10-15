@@ -82,8 +82,9 @@
         
       * Image IDs
         * Example,
-          |Label| Value|
-          |------|-----|                                                                                                                                                                    
+          
+          |Label|Value|
+          |-----|-----|                                                                                                                                                                    
           |ImageID|000060e3121c7305|
           |Subset|train|
           |OrigURL|https://c1.staticflickr.com/5/4129/5215831864_46f356962f_o.jpg|
